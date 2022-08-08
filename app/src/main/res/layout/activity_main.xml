@@ -4,39 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/blue_grey_900"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarSize="0dp">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="24dp"
-        android:orientation="vertical"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
 
-    <ImageView
-        android:layout_width="104dp"
-        android:layout_height="104dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/user" />
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/user" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/custom_edittext_bg_r4"
-        android:drawableStart="@drawable/ic_baseline_mail_outline_24"
-        android:drawablePadding="8dp"
-        android:hint="이메일 주소"
-        android:textColorHint="@color/black_60"
-        android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edittext_bg_r4"
+            android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/black_60"
+            android:hint="이메일 주소"
+            android:padding="20dp"
+            android:textColorHint="@color/black_60" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edittext_bg_r4"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/black_60"
+            android:hint="비밀번호"
+            android:padding="20dp"
+            android:textColorHint="@color/black_60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="영문, 숫자, 특수문자 조합 6자 이상"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edittext_bg_r4"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/black_60"
+            android:hint="비밀번호 다시입력"
+            android:padding="20dp"
+            android:textColorHint="@color/black_60" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edittext_bg_r4"
+            android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/black_60"
+            android:hint="이름"
+            android:padding="20dp"
+            android:textColorHint="@color/black_60" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
 
     <Button
-        android:layout_width="312dp"
-        android:layout_height="36dp"/>
-
-</LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/black"/>
 
 </LinearLayout>

@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kotlin/20220804_forTest_Practice/app/src/main/res/drawable/custom_edittext_bg_r4.xml" value="0.15" />
-        <entry key="..\:/Kotlin/20220804_forTest_Practice/app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
+        <entry key="..\:/Kotlin/20220804_forTest_Practice/app/src/main/res/drawable/ic_launcher_background.xml" value="0.201" />
+        <entry key="..\:/Kotlin/20220804_forTest_Practice/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
