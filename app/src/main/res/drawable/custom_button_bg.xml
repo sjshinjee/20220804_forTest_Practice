@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:state_enabled="true"/>
+
+    <item android:state_enabled="true"
+        android:drawable="@drawable/custom_button_enable"/>
+
     //item내부에 drawable 넣어줘라 / 직접 코드로 <shape></shape>이런 식으로
     //넣을수도 있는데, 이것 보다는 별도의 shape를 그려서 item내부에 drawable로 넣어줘라
-<item android:state_enabled="false"/>
+
+    <item android:state_enabled="false"
+        android:drawable="@drawable/custom_button_disable"/>
 
 </selector>

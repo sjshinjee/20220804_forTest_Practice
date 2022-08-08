@@ -97,6 +97,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="@color/black"/>
+        android:enabled="false"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@drawable/custom_button_bg"/>
 
 </LinearLayout>
