@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_grey_900"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext_bg_r4"
+        android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+        android:drawablePadding="8dp"
+        android:hint="이메일 주소"
+        android:textColorHint="@color/black_60"
+        android:padding="20dp"/>
+
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="36dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
